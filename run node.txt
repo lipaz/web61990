@@ -1,0 +1,9 @@
+open cmd here
+enter 'node fileName.js'
+open http://localhost:8080/
+
+npm modules
+npm install upper-case
+npm install modemailer
+npm install express
+npm install body-parser

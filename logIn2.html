@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="all" href="logIn.css" />
+  
+  <script src="logIn.js"></script>
+  
+</head>
+<body>
+
+<h1 class=h1>Log In to Your Account</h1>
+
+
+
+<form action="">
+  <div class="imgcontainer">
+    <img src="images2.jpg" alt="Image" class="image">
+  </div>
+  
+  <div class="container">
+    <label for="uname"><b>Email or phone or username</b></label>
+    <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+  
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+    
+        
+    <button onClick="checkForm()">Login</button>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label><br>
+
+    <label>Need an account? <span><a href="https://www.google.com/">Open Google</a></span></label>
+
+  </div>
+  
+  
+  <div class="container" style="background-color: #E9967A">
+    <button type="button" class="cancelbtn">Sign Up</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
